@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SafeRide</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="facebook_app_id">450779281616284</string>
+    <string name="give_score">ให้คะแนน</string>
+    <string name="give_comment">ให้ความคิดเห็น (ถ้ามี)</string>
+    <string name="str_place">สถานที่</string>
+    <string name="str_share">แชร์บอกเพื่อน</string>
+    <string name="str_need">ควรจะกรอก</string>
+    <string name="str_not_need">ไม่กรอกก็ได้</string>
+    <string name="str_need_good">กรอกก็ดี</string>
+    <string name="str_search">ค้นหา</string>
+
+</resources>

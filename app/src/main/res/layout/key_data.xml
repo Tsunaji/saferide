@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:useDefaultMargins="true"
+    android:columnCount="6"
+    android:background="@drawable/menu_page">
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/back_but"
+        android:text=" "
+        android:layout_columnSpan="1"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:id="@+id/buttonBack"
+        android:layout_marginTop="10dp"/>
+
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:id="@+id/image_top"
+        android:background="@mipmap/ic_launcher"
+        android:layout_columnSpan="4"
+        android:layout_gravity="center"/>
+
+    <Space
+        android:layout_columnSpan="1"
+        android:layout_width="match_parent"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView1"
+        android:layout_columnSpan="5"
+        android:layout_column="1" />
+
+    <EditText
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:layout_columnSpan="5"
+        android:singleLine="true"
+        android:layout_column="1"
+        android:textColor="#000000"
+        android:textColorHint="#3B2314"
+        android:background="@drawable/rounded_edittext"
+        android:hint="@string/str_need"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView2"
+        android:layout_columnSpan="5"
+        android:layout_column="1"
+        />
+
+    <EditText
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:singleLine="true"
+        android:layout_columnSpan="3"
+        android:layout_column="1"
+        android:textColorHint="#3B2314"
+        android:textColor="#000000"
+        android:background="@drawable/rounded_edittext"
+        android:hint="@string/str_not_need"/>
+    <Button
+        android:layout_columnSpan="2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/but_search"
+        android:text=""
+        android:id="@+id/button8" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView3"
+        android:layout_columnSpan="5"
+        android:layout_column="1"
+        />
+
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:layout_columnSpan="3"
+        android:singleLine="true"
+        android:layout_column="1"
+        android:textColor="#000000"
+        android:textColorHint="#3B2314"
+        android:background="@drawable/rounded_edittext"
+        android:hint="@string/str_need_good"/>
+    <Button
+        android:layout_columnSpan="2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/but_search"
+        android:text=""
+        android:id="@+id/button9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/str_share"
+        android:id="@+id/textView4"
+        android:layout_columnSpan="4"
+        android:layout_column="2"
+        />
+    <Button
+        android:layout_column="2"
+        android:layout_columnSpan="1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/fb_but"
+        android:text=" "
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_gravity="right"
+        android:id="@+id/button1"/>
+
+    <Button
+        android:layout_columnSpan="1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/tw_but"
+        android:text=" "
+        android:layout_gravity="left"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:id="@+id/button2"
+        />
+    <Space
+        android:layout_columnSpan="2"
+        />
+</GridLayout>

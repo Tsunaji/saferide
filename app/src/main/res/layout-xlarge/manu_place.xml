@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/place_bg"
+    android:orientation="vertical"
+    >
+
+    <TextView android:text="   " android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTop"
+        android:textSize="42dp"
+        android:layout_weight="1.5"
+        android:textColor="#000000"
+        />
+    <LinearLayout
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextSearch"
+            android:layout_weight="8"
+            android:singleLine="true"
+            android:hint="@string/str_search"
+            android:textColorHint="#3B2314"
+            android:textColor="#000000"
+            android:background="@drawable/rounded_edittext" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_weight="1"
+            android:src="@drawable/but_search"
+            android:id="@+id/button_search" />
+
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:layout_marginBottom="100dp"
+        android:id="@+id/listView"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000" />
+
+
+</LinearLayout>
